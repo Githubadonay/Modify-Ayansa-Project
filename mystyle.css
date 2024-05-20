@@ -54,11 +54,7 @@
   font-size: 60px;
   display: flex;
   justify-content: center;
-  color: #0C1C5C ;
-  
-  
-  /* color: #37124D; */
-  
+  color: #0C1C5C;
 }
 .home__paragraph{
   font-size: 20px;
@@ -82,23 +78,33 @@
   border-radius: 4px;
 }
 .about__wrapper{
+  background-color: #0C1C5C;
+  border-style: inset;
+  border-width: thick;
+  border-radius: 30px;
+  border-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
+  gap: 50px;
+  padding: 20px;
 }
 .about__title{
-  
-  font-size: 32px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
+  color:white;
+
   
   
 }
 .about__paragraph{
-  font-size: 20px;
-  font-weight: 700px;
+  font-size: 18px;
+  font-weight: 500;
   display: flex;
   justify-content: center;
+  color: white;
+  text-align:justify;
+  
     
 }
