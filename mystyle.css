@@ -79,24 +79,23 @@
 }
 .about__wrapper{
   background-color: #0C1C5C;
-  border-style: inset;
-  border-width: thick;
-  border-radius: 30px;
-  border-color: white;
+  border-style: solid;
+  border-width: 30px;
+  border-radius: 80px;
+  border-color: #7CFC00;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 50px;
   padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .about__title{
   font-size: 50px;
   display: flex;
   justify-content: center;
   color:white;
-
-  
-  
+ 
 }
 .about__paragraph{
   font-size: 18px;
@@ -104,7 +103,5 @@
   display: flex;
   justify-content: center;
   color: white;
-  text-align:justify;
-  
-    
+  text-align:justify;  
 }
